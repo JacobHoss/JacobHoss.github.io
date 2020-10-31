@@ -1,17 +1,24 @@
 import React from "react";
+import Brews from "../../images/appScreenshot.jpg";
+import COVID from "../../images/maskedwanderer.jpg";
+import CarTrivia from "../../images/car-trivia-quiz.jpg";
+import Weather from "../../images/weatherdashboard.jpg";
+import PasswordGen from "../../images/random-password-generator.jpg";
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import "../../App.css";
 
 const Portfolio = () => {
     return (
         <>
          <div className="portfolio-bg"></div>
-  <main className="pt-6">
+  <main className="paddingtop">
     <div className="columns pl-2">
 
-      <section className="box column is-2 mx-4">
+      <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://github.com/jeashwor/The_Silent_Turtles" target="_blank"><img
-                src="./assets/appScreenshot.jpg" alt="showmethebrews" /></a>
+                src={Brews} alt="showmethebrews" /></a>
           </figure>
         </div>
         <div className="card-content">
@@ -28,11 +35,11 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="box column is-2 mx-4">
+      <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://nataliegarcia-8.github.io/Domestic-Covid19-TravelApp/index.html" target="_blank"><img
-                src="./assets/maskedwanderer.jpg" alt="covid-19app" /></a>
+                src={COVID} alt="covid-19app" /></a>
           </figure>
         </div>
         <div className="card-content">
@@ -51,11 +58,11 @@ const Portfolio = () => {
       </section>
 
 
-      <section className="box column is-2 mx-4">
+      <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://jacobhoss.github.io/car-trivia-quiz/" target="_blank"><img
-                src="./assets/car-trivia-quiz.jpg" alt="car-trivia-quiz" /></a>
+                src={CarTrivia} alt="car-trivia-quiz" /></a>
           </figure>
         </div>
         <div className="card-content">
@@ -72,11 +79,11 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="box column is-2 mx-4">
+      <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://jacobhoss.github.io/weather-dashboard/" target="_blank" className="deployed"><img
-                src="./assets/weatherdashboard.jpg" alt="weather-dashboard" /></a>
+                src={Weather} alt="weather-dashboard" /></a>
           </figure>
         </div>
         <div className="card-content">
@@ -95,11 +102,11 @@ const Portfolio = () => {
       </section>
 
 
-      <section className="box column is-2 mx-4">
+      <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://jacobhoss.github.io/random-password-generator/index.html" target="_blank"><img
-                src="./assets/random-password-generator.jpg" alt="random-password-generator" /></a>
+                src={PasswordGen} alt="random-password-generator" /></a>
           </figure>
         </div>
         <div className="card-content">
@@ -118,10 +125,8 @@ const Portfolio = () => {
 
 
       <div className="social-media column">
-        <a href="https://github.com/JacobHoss" target="_blank" className="button is-light is-large"><i className="fa fa-github"
-            aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/jacob-hoss-00b431139" target="_blank" className="button is-light is-large"><i
-            className="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://github.com/JacobHoss" target="_blank" className="button is-light is-large"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/jacob-hoss-00b431139" target="_blank" className="button is-light is-large"><FaLinkedin /></a>
       </div>
 
     </div>

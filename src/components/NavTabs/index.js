@@ -3,22 +3,32 @@ import { Link, useLocation } from "react-router-dom";
 
 function NavTabs() {
 	const location = useLocation();
-
+	const [isActive, setisActive] = React.useState(false);
+	
 	return (
-		<nav className="navbar">
-			<div className="container">
-				<div className="navbar-brand">
-					<a className="navbar-item is-size-3" href="./index.html">
-						<strong>Jacob Hoss</strong>
-					</a>
-					<span className="navbar-burger burger" data-target="navbarMenu">
-						<span></span>
-						<span></span>
-						<span></span>
-					</span>
-				</div>
-				<div id="navbarMenu" className="navbar-menu is-size-5 has-text-right">
-					<div className="navbar-end">
+		<nav className="navbar" role="navigation" aria-label="main navigation">
+        <div className="navbar-brand">
+          <a
+            onClick={() => {
+              setisActive(!isActive);
+            }}
+            role="button"
+            className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div
+          id="navbarBasicExample"
+          className={`navbar-menu ${isActive ? "is-active" : ""}`}
+        >
+					<div className="navbar-start">
+					<div className="navbar-item is-size-3"><strong>Jacob Hoss</strong></div>
 						<a className="navbar-item">
 							<Link to="/" className={location.pathname === "/"}>
 								About Me
@@ -51,7 +61,6 @@ function NavTabs() {
 						</div>
 					</div>
 				</div>
-			</div>
 		</nav>
 	);
 }
