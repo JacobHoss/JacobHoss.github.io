@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.6cbbc0a0.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.d7686ec2.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.d7686ec2.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.3a606036.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.3a606036.js.map",
+    "static/css/2.4e118911.chunk.css": "/React-Portfolio/static/css/2.4e118911.chunk.css",
+    "static/js/2.fd6b88a4.chunk.js": "/React-Portfolio/static/js/2.fd6b88a4.chunk.js",
+    "static/js/2.fd6b88a4.chunk.js.map": "/React-Portfolio/static/js/2.fd6b88a4.chunk.js.map",
+    "static/js/3.f4f3064c.chunk.js": "/React-Portfolio/static/js/3.f4f3064c.chunk.js",
+    "static/js/3.f4f3064c.chunk.js.map": "/React-Portfolio/static/js/3.f4f3064c.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.4e118911.chunk.css.map": "/React-Portfolio/static/css/2.4e118911.chunk.css.map",
+    "static/css/main.6cbbc0a0.chunk.css.map": "/React-Portfolio/static/css/main.6cbbc0a0.chunk.css.map",
+    "static/js/2.fd6b88a4.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.fd6b88a4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/React-Portfolio/static/media/DSC_0094.c42cfb13.jpg",
+    "static/media/appScreenshot.6384365a.jpg": "/React-Portfolio/static/media/appScreenshot.6384365a.jpg",
+    "static/media/car-trivia-quiz.fe1dac79.jpg": "/React-Portfolio/static/media/car-trivia-quiz.fe1dac79.jpg",
+    "static/media/maskedwanderer.aa50e699.jpg": "/React-Portfolio/static/media/maskedwanderer.aa50e699.jpg",
+    "static/media/portrait.dc6f7e97.jpg": "/React-Portfolio/static/media/portrait.dc6f7e97.jpg",
+    "static/media/random-password-generator.567a2a7b.jpg": "/React-Portfolio/static/media/random-password-generator.567a2a7b.jpg",
+    "static/media/resume.7d39bb26.pdf": "/React-Portfolio/static/media/resume.7d39bb26.pdf",
+    "static/media/weatherdashboard.5ec88a94.jpg": "/React-Portfolio/static/media/weatherdashboard.5ec88a94.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a606036.js",
+    "static/css/2.4e118911.chunk.css",
+    "static/js/2.fd6b88a4.chunk.js",
+    "static/css/main.6cbbc0a0.chunk.css",
+    "static/js/main.d7686ec2.chunk.js"
+  ]
+}
