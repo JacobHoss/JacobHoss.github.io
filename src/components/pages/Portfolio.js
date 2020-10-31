@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://github.com/jeashwor/The_Silent_Turtles" target="_blank"><img
-                src={Brews} alt="showmethebrews" /></a>
+                src={Brews} className="rounded" alt="showmethebrews" /></a>
           </figure>
         </div>
         <div className="card-content">
@@ -39,7 +39,7 @@ const Portfolio = () => {
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://nataliegarcia-8.github.io/Domestic-Covid19-TravelApp/index.html" target="_blank"><img
-                src={COVID} alt="covid-19app" /></a>
+                src={COVID} className="rounded" alt="covid-19app" /></a>
           </figure>
         </div>
         <div className="card-content">
@@ -62,7 +62,7 @@ const Portfolio = () => {
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://jacobhoss.github.io/car-trivia-quiz/" target="_blank"><img
-                src={CarTrivia} alt="car-trivia-quiz" /></a>
+                src={CarTrivia} className="rounded" alt="car-trivia-quiz" /></a>
           </figure>
         </div>
         <div className="card-content">
@@ -83,7 +83,7 @@ const Portfolio = () => {
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://jacobhoss.github.io/weather-dashboard/" target="_blank" className="deployed"><img
-                src={Weather} alt="weather-dashboard" /></a>
+                src={Weather} className="rounded" alt="weather-dashboard" /></a>
           </figure>
         </div>
         <div className="card-content">
@@ -106,7 +106,7 @@ const Portfolio = () => {
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://jacobhoss.github.io/random-password-generator/index.html" target="_blank"><img
-                src={PasswordGen} alt="random-password-generator" /></a>
+                src={PasswordGen} className="rounded" alt="random-password-generator" /></a>
           </figure>
         </div>
         <div className="card-content">

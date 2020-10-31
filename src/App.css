@@ -46,16 +46,12 @@ body {
   position: relative;
 }
 
-html {
-background:black;
+.rounded {
+  border-radius: 15px;
 }
 
 section {
   opacity: 0.85;
-}
-
-section:hover {
-  opacity: 1.0;
 }
 
 .faded {
