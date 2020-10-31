@@ -1,4 +1,7 @@
 import React from "react";
+import Footer from "../Footer";
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import Portrait from "../../images/portrait.jpg";
 
 const About = () => {
     return (
@@ -10,16 +13,15 @@ const About = () => {
 				<div className="columns is-8">
 					<div className="column has-text-left">
 						<div className="social-media">
-							<a href="https://github.com/JacobHoss" target="_blank" className="button is-light is-large"><i
-									className="fa fa-github" aria-hidden="true"></i></a>
+							<a href="https://github.com/JacobHoss" target="_blank" className="button is-light is-large"><FaGithub /></a>
 							<a href="https://www.linkedin.com/in/jacob-hoss-00b431139" target="_blank"
-								className="button is-light is-large"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+								className="button is-light is-large"><FaLinkedin /></a>
 						</div>
 					</div>
 					<div className="column has-text-left box has-background-light mx-2">
 						<article>
 							<figure className="image is-128x128">
-								<img src="assets/portrait.jpg" className="is-rounded" />
+								<img src={Portrait} className="is-rounded" />
 							</figure>
 							<p className="indent is-size-5 has-text-grey-dark">
 								I enjoy web development for the same reasons I enjoy some of my hobbies;
@@ -39,6 +41,7 @@ const About = () => {
 			</div>
 		</div>
     </article>
+	<Footer />
         </>
     )
 }
