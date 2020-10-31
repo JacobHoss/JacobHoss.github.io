@@ -17,7 +17,7 @@ const Portfolio = () => {
       <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
-            <a href="https://github.com/jeashwor/The_Silent_Turtles" target="_blank"><img
+            <a href="https://github.com/jeashwor/The_Silent_Turtles" target="_blank" rel="noreferrer"><img
                 src={Brews} className="rounded" alt="showmethebrews" /></a>
           </figure>
         </div>
@@ -25,7 +25,7 @@ const Portfolio = () => {
           <div className="media">
             <div className="media-content">
               <p className="title is-4">Show Me the Brews</p>
-              <a href="https://github.com/JacobHoss/random-password-generator" target="_blank">Github Repository</a>
+              <a href="https://github.com/JacobHoss/random-password-generator" target="_blank" rel="noreferrer">Github Repository</a>
             </div>
           </div>
           <div className="content is-size-5">
@@ -38,7 +38,7 @@ const Portfolio = () => {
       <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
-            <a href="https://nataliegarcia-8.github.io/Domestic-Covid19-TravelApp/index.html" target="_blank"><img
+            <a href="https://nataliegarcia-8.github.io/Domestic-Covid19-TravelApp/index.html" target="_blank" rel="noreferrer"><img
                 src={COVID} className="rounded" alt="covid-19app" /></a>
           </figure>
         </div>
@@ -46,7 +46,7 @@ const Portfolio = () => {
           <div className="media">
             <div className="media-content">
               <p className="title is-4">COVID-19 Travel App</p>
-              <a href="https://github.com/nataliegarcia-8/Domestic-Covid19-TravelApp" target="_blank">Github
+              <a href="https://github.com/nataliegarcia-8/Domestic-Covid19-TravelApp" target="_blank" rel="noreferrer">Github
                 Repository</a>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Portfolio = () => {
       <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
-            <a href="https://jacobhoss.github.io/car-trivia-quiz/" target="_blank"><img
+            <a href="https://jacobhoss.github.io/car-trivia-quiz/" target="_blank" rel="noreferrer"><img
                 src={CarTrivia} className="rounded" alt="car-trivia-quiz" /></a>
           </figure>
         </div>
@@ -69,7 +69,7 @@ const Portfolio = () => {
           <div className="media">
             <div className="media-content">
               <p className="title is-4">Car Trivia Quiz</p>
-              <a href="https://github.com/JacobHoss/car-trivia-quiz" target="_blank">Github Repository</a>
+              <a href="https://github.com/JacobHoss/car-trivia-quiz" target="_blank" rel="noreferrer">Github Repository</a>
             </div>
           </div>
           <div className="content is-size-5">
@@ -82,7 +82,7 @@ const Portfolio = () => {
       <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
-            <a href="https://jacobhoss.github.io/weather-dashboard/" target="_blank" className="deployed"><img
+            <a href="https://jacobhoss.github.io/weather-dashboard/" target="_blank" rel="noreferrer" className="deployed"><img
                 src={Weather} className="rounded" alt="weather-dashboard" /></a>
           </figure>
         </div>
@@ -90,7 +90,7 @@ const Portfolio = () => {
           <div className="media">
             <div className="media-content">
               <p className="title is-4">Weather Dashboard</p>
-              <a href="https://github.com/JacobHoss/weather-dashboard" target="_blank">Github Repository</a>
+              <a href="https://github.com/JacobHoss/weather-dashboard" target="_blank" rel="noreferrer">Github Repository</a>
             </div>
           </div>
 
@@ -105,7 +105,7 @@ const Portfolio = () => {
       <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
-            <a href="https://jacobhoss.github.io/random-password-generator/index.html" target="_blank"><img
+            <a href="https://jacobhoss.github.io/random-password-generator/index.html" target="_blank" rel="noreferrer"><img
                 src={PasswordGen} className="rounded" alt="random-password-generator" /></a>
           </figure>
         </div>
@@ -113,7 +113,7 @@ const Portfolio = () => {
           <div className="media">
             <div className="media-content">
               <p className="title is-4">Password Generator</p>
-              <a href="https://github.com/JacobHoss/random-password-generator" target="_blank">Github Repository</a>
+              <a href="https://github.com/JacobHoss/random-password-generator" target="_blank" rel="noreferrer">Github Repository</a>
             </div>
           </div>
           <div className="content is-size-5">
@@ -125,8 +125,8 @@ const Portfolio = () => {
 
 
       <div className="social-media column">
-        <a href="https://github.com/JacobHoss" target="_blank" className="button is-light is-large"><FaGithub /></a>
-        <a href="https://www.linkedin.com/in/jacob-hoss-00b431139" target="_blank" className="button is-light is-large"><FaLinkedin /></a>
+        <a href="https://github.com/JacobHoss" target="_blank" rel="noreferrer" className="button is-light is-large"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/jacob-hoss-00b431139" target="_blank" rel="noreferrer" className="button is-light is-large"><FaLinkedin /></a>
       </div>
 
     </div>

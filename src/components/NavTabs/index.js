@@ -34,7 +34,7 @@ function NavTabs() {
 						<Link to="/" className={location.pathname === "/"}>
 							About Me
         					</Link></a>
-					<a href={PDF} target="_blank" className="navbar-item">
+					<a href={PDF} target="_blank" rel="noreferrer" className="navbar-item">
 						<strong>Resume</strong>
         					</a>
 					<a className="navbar-item">
@@ -47,16 +47,16 @@ function NavTabs() {
 								Portfolio
         						</Link></a>
 						<div className="navbar-dropdown is-size-6">
-							<a className="navbar-item" href="https://mighty-mesa-69962.herokuapp.com/" target="_blank">Show
+							<a className="navbar-item" href="https://mighty-mesa-69962.herokuapp.com/" target="_blank" rel="noreferrer">Show
 								Me The Brews</a>
 							<a className="navbar-item" href="https://nataliegarcia-8.github.io/Domestic-Covid19-TravelApp/"
-								target="_blank">COVID-19 Travel App</a>
+								target="_blank" rel="noreferrer">COVID-19 Travel App</a>
 							<a className="navbar-item" href="https://jacobhoss.github.io/weather-dashboard/"
-								target="_blank">Weather Dashboard</a>
+								target="_blank" rel="noreferrer">Weather Dashboard</a>
 							<a className="navbar-item" href="https://jacobhoss.github.io/car-trivia-quiz/"
-								target="_blank">Car Trivia Quiz</a>
+								target="_blank" rel="noreferrer">Car Trivia Quiz</a>
 							<a className="navbar-item" href="https://jacobhoss.github.io/random-password-generator/"
-								target="_blank">Random Password Generator</a>
+								target="_blank" rel="noreferrer">Random Password Generator</a>
 						</div>
 					</div>
 				</div>

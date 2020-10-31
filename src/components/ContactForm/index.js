@@ -16,8 +16,8 @@ function ContactForm() {
                         <div className="columns is-8">
                             <div className="column is-two-thirds has-text-left">
                                 <div className="social-media">
-                                    <a href="https://github.com/JacobHoss" target="_blank" className="button is-light is-large"><FaGithub /></a>
-                                    <a href="https://www.linkedin.com/in/jacob-hoss-00b431139" target="_blank"
+                                    <a href="https://github.com/JacobHoss" target="_blank" rel="noreferrer" className="button is-light is-large"><FaGithub /></a>
+                                    <a href="https://www.linkedin.com/in/jacob-hoss-00b431139" target="_blank" rel="noreferrer"
                                         className="button is-light is-large"><FaLinkedin /></a>
                                 </div>
                             </div>

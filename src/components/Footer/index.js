@@ -6,7 +6,7 @@ function Footer() {
 			<div class="content has-text-centered">
 				<p>
 					<strong>Photo Background</strong> by <a href="https://www.instagram.com/jacobhoss2/"
-						target="_blank">Jacob Hoss <i class="fa fa-instagram"></i></a>
+						target="_blank" rel="noreferrer">Jacob Hoss <i class="fa fa-instagram"></i></a>
 				</p>
 			</div>
 		</footer>
