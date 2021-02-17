@@ -24,11 +24,10 @@ const About = () => {
 							<figure className="image is-128x128">
 								<img src={Portrait} className="is-rounded" />
 							</figure>
+							<h1 class="title is-1">Jacob Hoss</h1>
 							<p className="indent is-size-5 has-text-grey-dark horpadding paddingtop">
-								I enjoy web development for the same reasons I enjoy some of my hobbies;
-								classical piano and photography. It takes diligence and creativity to be a good
-								developer. The GA Tech Coding Boot Camp has been a transformative experience for me.
-								I have found myself enjoying it way more than I thought I would. </p><br />
+								Hi, my name is Hcob Hoss. I am a recent graduate of Georgia Tech's Fullstack Web Development 
+								Bootcamp.  </p><br />
 							<p className="indent is-size-5 has-text-grey-dark horpadding paddingbottom">A little background on me: I
 								have lived in Metro Atlanta my whole life. I went to school at Kennesaw State
 								University and majored in Entrepreneurial Studies. After I finished school, I
