@@ -17,7 +17,7 @@ const Portfolio = () => {
       <section className="box column is-2 hormargin">
         <div className="card-image">
           <figure className="image is-4by3">
-            <a href="https://github.com/jeashwor/The_Silent_Turtles" target="_blank" rel="noreferrer"><img
+            <a href="https://mighty-mesa-69962.herokuapp.com/" target="_blank" rel="noreferrer"><img
                 src={Brews} className="rounded" alt="showmethebrews" /></a>
           </figure>
         </div>
@@ -25,7 +25,7 @@ const Portfolio = () => {
           <div className="media">
             <div className="media-content">
               <p className="title is-4">Show Me the Brews</p>
-              <a href="https://github.com/JacobHoss/random-password-generator" target="_blank" rel="noreferrer">Github Repository</a>
+              <a href="https://github.com/jeashwor/The_Silent_Turtles" target="_blank" rel="noreferrer">Github Repository</a>
             </div>
           </div>
           <div className="content is-size-5">
