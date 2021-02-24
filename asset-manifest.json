@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62545c65.chunk.css",
+    "main.js": "/static/js/main.9b03855b.chunk.js",
+    "main.js.map": "/static/js/main.9b03855b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.77b1a34b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.77b1a34b.js.map",
+    "static/css/2.4e118911.chunk.css": "/static/css/2.4e118911.chunk.css",
+    "static/js/2.fd6b88a4.chunk.js": "/static/js/2.fd6b88a4.chunk.js",
+    "static/js/2.fd6b88a4.chunk.js.map": "/static/js/2.fd6b88a4.chunk.js.map",
+    "static/js/3.f4f3064c.chunk.js": "/static/js/3.f4f3064c.chunk.js",
+    "static/js/3.f4f3064c.chunk.js.map": "/static/js/3.f4f3064c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4e118911.chunk.css.map": "/static/css/2.4e118911.chunk.css.map",
+    "static/css/main.62545c65.chunk.css.map": "/static/css/main.62545c65.chunk.css.map",
+    "static/js/2.fd6b88a4.chunk.js.LICENSE.txt": "/static/js/2.fd6b88a4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/DSC_0094.c42cfb13.jpg",
+    "static/media/appScreenshot.6384365a.jpg": "/static/media/appScreenshot.6384365a.jpg",
+    "static/media/car-trivia-quiz.fe1dac79.jpg": "/static/media/car-trivia-quiz.fe1dac79.jpg",
+    "static/media/maskedwanderer.aa50e699.jpg": "/static/media/maskedwanderer.aa50e699.jpg",
+    "static/media/portrait.dc6f7e97.jpg": "/static/media/portrait.dc6f7e97.jpg",
+    "static/media/random-password-generator.567a2a7b.jpg": "/static/media/random-password-generator.567a2a7b.jpg",
+    "static/media/resume.ac44d34c.pdf": "/static/media/resume.ac44d34c.pdf",
+    "static/media/weatherdashboard.5ec88a94.jpg": "/static/media/weatherdashboard.5ec88a94.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77b1a34b.js",
+    "static/css/2.4e118911.chunk.css",
+    "static/js/2.fd6b88a4.chunk.js",
+    "static/css/main.62545c65.chunk.css",
+    "static/js/main.9b03855b.chunk.js"
+  ]
+}
