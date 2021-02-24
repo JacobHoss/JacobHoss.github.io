@@ -24,17 +24,12 @@ const About = () => {
 							<figure className="image is-128x128">
 								<img src={Portrait} className="is-rounded" />
 							</figure>
+							<h1 class="title is-3">Design-Minded with Technical Expertise</h1>
 							<p className="indent is-size-5 has-text-grey-dark horpadding paddingtop">
-								I enjoy web development for the same reasons I enjoy some of my hobbies;
-								classical piano and photography. It takes diligence and creativity to be a good
-								developer. The GA Tech Coding Boot Camp has been a transformative experience for me.
-								I have found myself enjoying it way more than I thought I would. </p><br />
-							<p className="indent is-size-5 has-text-grey-dark horpadding paddingbottom">A little background on me: I
-								have lived in Metro Atlanta my whole life. I went to school at Kennesaw State
-								University and majored in Entrepreneurial Studies. After I finished school, I
-								started working for a State Farm agent. I have found tremendous success in that work
-								and will surely take those skills with me to future careers. Web development is an
-								exciting field of study and I'm anxious to finish the course and start my career.
+								Hi, my name is Jacob Hoss. I am a Full Stack Web Developer, classical pianist, photographer, and motorcycle enthusiast.</p><br />
+							<p className="indent is-size-5 has-text-grey-dark horpadding paddingbottom">After graduating from Kennesaw State University in 2018, I continued working for State Farm in insurance sales.
+							I saw a great deal of professional development in myself and am excited to see my transferable skills being utilized in a career for web development. I work extremely well with people and always rise to the challenge when demands are high. 
+
 							</p>
 						</article>
 					</div>

@@ -36,17 +36,17 @@ function NavTabs() {
         					</Link></a>
 					<a href={PDF} target="_blank" rel="noreferrer" className="navbar-item">
 						<strong>Resume</strong>
-        					</a>
+					</a>
 					<a className="navbar-item">
 						<Link to="/contact" className={location.pathname === "/contact"}>
 							Contact
         					</Link></a>
-					<div className="navbar-item has-dropdown is-hoverable">
+					<div className={`navbar-item has-dropdown is-hoverable ${isActive ? "is-active" : ""}`}>
 						<a className="navbar-link">
 							<Link to="/portfolio" className={location.pathname === "/portfolio"}>
 								Portfolio
         						</Link></a>
-						<div className="navbar-dropdown is-size-6">
+						<div className="navbar-dropdown is-size-6 is-hoverable">
 							<a className="navbar-item" href="https://mighty-mesa-69962.herokuapp.com/" target="_blank" rel="noreferrer">Show
 								Me The Brews</a>
 							<a className="navbar-item" href="https://nataliegarcia-8.github.io/Domestic-Covid19-TravelApp/"
